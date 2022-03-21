@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EditorWindow</class>
+ <widget class="QMainWindow" name="EditorWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>570</width>
+    <height>399</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>EditorWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>551</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="lineWrapMode">
+     <enum>QTextEdit::WidgetWidth</enum>
+    </property>
+    <property name="lineWrapColumnOrWidth">
+     <number>80</number>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>570</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="actionInsert_string"/>
+    <addaction name="actionInsert_many_strings"/>
+    <addaction name="actionDelete_string"/>
+    <addaction name="separator"/>
+    <addaction name="actionInsert_substring"/>
+    <addaction name="actionChange_letter"/>
+    <addaction name="actionChange_substring"/>
+    <addaction name="separator"/>
+    <addaction name="actionCompress_numbers"/>
+    <addaction name="actionMake_cool_number_sequance"/>
+    <addaction name="actionChange_stars"/>
+    <addaction name="actionDelete_groups"/>
+   </widget>
+   <addaction name="menuTools"/>
+  </widget>
+  <action name="actionInsert_string">
+   <property name="text">
+    <string>Вставить строку</string>
+   </property>
+   <property name="toolTip">
+    <string>Вставить строку</string>
+   </property>
+  </action>
+  <action name="actionInsert_many_strings">
+   <property name="text">
+    <string>Вставить много строк</string>
+   </property>
+   <property name="toolTip">
+    <string>Вставить много строк</string>
+   </property>
+  </action>
+  <action name="actionDelete_string">
+   <property name="text">
+    <string>Удалить строку</string>
+   </property>
+   <property name="toolTip">
+    <string>Удалить строку</string>
+   </property>
+  </action>
+  <action name="actionInsert_substring">
+   <property name="text">
+    <string>Вставить подстроку</string>
+   </property>
+   <property name="toolTip">
+    <string>Вставить подстроку</string>
+   </property>
+  </action>
+  <action name="actionChange_letter">
+   <property name="text">
+    <string>Изменить символ</string>
+   </property>
+   <property name="toolTip">
+    <string>Изменить символ</string>
+   </property>
+  </action>
+  <action name="actionChange_substring">
+   <property name="text">
+    <string>Заменить подстроку</string>
+   </property>
+   <property name="toolTip">
+    <string>Заменить подстроку</string>
+   </property>
+  </action>
+  <action name="actionCompress_numbers">
+   <property name="text">
+    <string>Сжать числа</string>
+   </property>
+   <property name="toolTip">
+    <string>Сжать числа</string>
+   </property>
+  </action>
+  <action name="actionMake_cool_number_sequance">
+   <property name="text">
+    <string>Сделать красивые чиселки</string>
+   </property>
+   <property name="toolTip">
+    <string>Сделать красивые чиселки</string>
+   </property>
+  </action>
+  <action name="actionChange_stars">
+   <property name="text">
+    <string>Поменять звёздочки на плюсики</string>
+   </property>
+  </action>
+  <action name="actionDelete_groups">
+   <property name="text">
+    <string>Удалить выделенные группы</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
